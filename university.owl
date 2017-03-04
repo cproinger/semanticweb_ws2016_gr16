@@ -20,9 +20,15 @@
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#hasCourseType
 
-<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> a owl:ObjectProperty ;
+<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> a owl:ObjectProperty , owl:IrreflexiveProperty ;
 	rdfs:domain <http://ifs.tuwien.ac.at/tulid/group16#CourseType> ;
 	rdfs:range <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+# 
+# http://ifs.tuwien.ac.at/tulid/group16#headOfCourse
+
+<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> a owl:ObjectProperty , owl:IrreflexiveProperty ;
+	rdfs:domain <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	rdfs:range <http://ifs.tuwien.ac.at/tulid/group16#Professor> .
 # 
 # 
 # 
@@ -43,6 +49,7 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#courseID> a owl:DatatypeProperty ;
 	rdfs:subPropertyOf <http://ifs.tuwien.ac.at/tulid/group16#hasID> ;
+	a owl:FunctionalProperty ;
 	rdfs:domain <http://ifs.tuwien.ac.at/tulid/group16#Course> .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#courseName
@@ -66,9 +73,15 @@
 <http://ifs.tuwien.ac.at/tulid/group16#detailsURL> a owl:DatatypeProperty ;
 	rdfs:range xsd:anyURI .
 # 
+# http://ifs.tuwien.ac.at/tulid/group16#ects
+
+<http://ifs.tuwien.ac.at/tulid/group16#ects> a owl:DatatypeProperty ;
+	rdfs:domain <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	rdfs:range xsd:double .
+# 
 # http://ifs.tuwien.ac.at/tulid/group16#hasID
 
-<http://ifs.tuwien.ac.at/tulid/group16#hasID> a owl:DatatypeProperty ;
+<http://ifs.tuwien.ac.at/tulid/group16#hasID> a owl:DatatypeProperty , owl:FunctionalProperty ;
 	rdfs:range xsd:string .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#hasName
@@ -80,7 +93,7 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#semesterHours> a owl:DatatypeProperty ;
 	rdfs:domain <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	rdfs:range xsd:decimal .
+	rdfs:range xsd:double .
 # 
 # 
 # 
