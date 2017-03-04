@@ -1,12 +1,13 @@
-package at.ac.tuwien.ifs.tulid.group16;
+package at.ac.tuwien.ifs.tulid.group16.web;
 
-import java.util.ArrayList;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
 import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -14,15 +15,8 @@ import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.web.servlet.MockMvc;
 
-import at.ac.tuwien.ifs.tulid.group16.SampleController.SampleResource;
-
-import static org.assertj.core.api.Assertions.*;
-import static org.junit.Assert.*;
-import static org.mockito.BDDMockito.*;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import at.ac.tuwien.ifs.tulid.group16.web.SampleController.SampleResource;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)

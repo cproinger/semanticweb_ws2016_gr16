@@ -1,4 +1,4 @@
-package at.ac.tuwien.ifs.tulid.group16;
+package at.ac.tuwien.ifs.tulid.group16.web;
 
 import org.springframework.hateoas.VndErrors;
 import org.springframework.http.HttpStatus;
