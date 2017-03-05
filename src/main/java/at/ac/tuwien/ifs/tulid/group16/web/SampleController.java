@@ -56,7 +56,7 @@ public class SampleController {
 		// QueryExecutionFactory.create(Query.lt)
 		
 		dataset.begin(ReadWrite.READ);
-		try (QueryExecution qexec = QueryExecutionFactory.create(Queries.FIND_COURSES, dataset)) {
+		try (QueryExecution qexec = QueryExecutionFactory.create(Queries.COURSE_FIND, dataset)) {
 			ResultSet rs = qexec.execSelect();
 
 			for (; rs.hasNext();) {
