@@ -1,0 +1,288 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185966&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185276&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E4> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E4> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ARG> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ARG> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E4> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185211&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A60&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=104> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=104> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185299&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H17> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H17> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=123> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=123> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AUDI> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AUDI> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG05> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG05> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG05A> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG05A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E2> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E2> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E6> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E6> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H8> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H8> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F5> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55&semester=2017S> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F5> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A48&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F3> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F3> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H11> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H11> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F6> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F6> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F7> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F7> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F5> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E2> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E5> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E5> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A86&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F3> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG15> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG15> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A67&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E6> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185190&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1832> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1832> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E8> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BA_PRAKT> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BA_PRAKT> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AUDI> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E4> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E7> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HEEG07> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HEEG07> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HEEG10> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HEEG10> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A34&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ARG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=RADI> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=RADI> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E10> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185329&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F6> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E2> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E11> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E11> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A45&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H17> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A70&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E9> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=F8> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185249&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A01&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=INFH> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H15> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=H15> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=BA_PRAKT> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=AUDI> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=HGEG05> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> .
+
+<https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1872> a <http://ifs.tuwien.ac.at/tulid/group16#Room> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62&semester=2016W> <http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=1872> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=ZEMS> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185054&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185318&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMG> , <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=SEMN> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185310&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185206&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3A> .
+
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
+0
