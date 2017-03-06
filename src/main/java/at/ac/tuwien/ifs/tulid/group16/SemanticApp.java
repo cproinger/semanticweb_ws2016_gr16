@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement(mode = AdviceMode.PROXY, proxyTargetClass = true)
 public class SemanticApp {
-	static final String NS_BASE = "http://ifs.tuwien.ac.at/tulid/group16";
+	public static final String NS_BASE = "http://ifs.tuwien.ac.at/tulid/group16";
 
 	public static void main(String[] args) {
 		SpringApplication.run(SemanticApp.class);
