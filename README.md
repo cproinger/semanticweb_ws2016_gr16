@@ -26,6 +26,10 @@ For testing purposes (in the implementation we load the rdf-files programmatical
 
 ## Task 6: Suggest a TU Linked Data Application
 
+The [Curriculums](http://www.informatik.tuwien.ac.at/studium/angebot/studienplaene/informatik-archiv/informatik-studienplan-2016/StudienplanMasterstudiumSoftwareEngineeringInternetComputing.pdf) could be formulated in an Ontology and linked with the data in TISS. This could be used to help students plan their study. The student could for example would enter the semester he/she wants to be finished and the application would suggest which courses he/she needs to take in which semesters (some are in WS and SS but some are only in one of them) to be able to finish on time. 
 
+Additionally the application could let students enter data about their experiences (work load, difficulty, ...). In turn this could help students to plan their semester to not overload themselves with work, or even better, help them to better distribute courses with high workloads throughout their study. If [VoWi](https://vowi.fsinf.at) used semantic markup the experience-data there could also be used. 
+
+In TISS courses there are usually some requirements listed and the things one will learn. If they would use an open vocabulary one could use that to help students in selecting the courses that fit their interests. 
 
 
