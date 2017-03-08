@@ -285,4 +285,4 @@
 
 <https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#locatedAt> <https://tiss.tuwien.ac.at/events/roomSchedule.xhtml?roomCode=E3> .
-0
+

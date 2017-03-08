@@ -11,7 +11,7 @@ import com.google.common.io.Resources;
 
 public class Queries {
 	
-	public static class Builder {
+	static class Builder {
 		private static Builder fromResource(String resPath) {
 			try {
 				return new Builder(getClasspathResourceAsString(resPath));
@@ -30,13 +30,13 @@ public class Queries {
 			return pss.asQuery();
 		}
 	}
-	public static interface ParamSetter {
+	static interface ParamSetter {
 		public void setParams(ParameterizedSparqlString pss);
 	}
 
 	public static Query COURSE_FIND = createQueryFromResourcePath("/queries/course-find.rq");
 	
-	public static Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne.rq");
+	static Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne.rq");
 
 	private static Query createQueryFromResourcePath(String q) {
 		try {

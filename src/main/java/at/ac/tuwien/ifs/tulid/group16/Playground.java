@@ -53,9 +53,6 @@ public class Playground {
 	}
 
 	private static void removeIndividuals(OntClass c) {
-		toStream(c.listInstances()).forEach(r -> {
-			System.out.println(r.toString());
-		});
 		List<? extends OntResource> l = 
 				toStream(c.listInstances()).collect(Collectors.toList());
 		l.forEach(r -> r.remove());

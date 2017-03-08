@@ -23,5 +23,7 @@ public class CourseRepositoryTest {
 		//TODO
 		Course c = courseRepo.findOne("185.A49");
 		assertEquals("Abstrakte Maschinen", c.getName());
+		assertEquals(3.0, c.getECTS(), 0.01);
+		assertEquals(2.0, c.getSemesterHours(), 0.01);
 	}
 }
