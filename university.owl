@@ -112,11 +112,13 @@
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#Course
 
-:Course a owl:Class .
+:Course a owl:Class ;
+	rdfs:comment "A course usually has a head Professor and is located at a specific Room. They have a type as well."@en .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#CourseType
 
-:CourseType a owl:Class .
+:CourseType a owl:Class ;
+	rdfs:comment "Courses usually have types like Seminar, Lecture, ..."@en .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#Person
 
@@ -129,7 +131,8 @@
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#Room
 
-:Room a owl:Class .
+:Room a owl:Class ;
+	rdfs:comment "Courses are located in Rooms"@en .
 # 
 # 
 # 

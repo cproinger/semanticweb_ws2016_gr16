@@ -30,6 +30,12 @@
 	rdfs:domain :Course ;
 	rdfs:range :Professor .
 # 
+# http://ifs.tuwien.ac.at/tulid/group16#locatedAt
+
+:locatedAt a owl:ObjectProperty ;
+	rdfs:domain :Course ;
+	rdfs:range :Room .
+# 
 # 
 # 
 # #################################################################
@@ -106,11 +112,13 @@
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#Course
 
-:Course a owl:Class .
+:Course a owl:Class ;
+	rdfs:comment "A course usually has a head Professor and is located at a specific Room. They have a type as well."@en .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#CourseType
 
-:CourseType a owl:Class .
+:CourseType a owl:Class ;
+	rdfs:comment "Courses usually have types like Seminar, Lecture, ..."@en .
 # 
 # http://ifs.tuwien.ac.at/tulid/group16#Person
 
@@ -120,6 +128,11 @@
 
 :Professor a owl:Class ;
 	rdfs:subClassOf :Person .
+# 
+# http://ifs.tuwien.ac.at/tulid/group16#Room
+
+:Room a owl:Class ;
+	rdfs:comment "Courses are located in Rooms"@en .
 # 
 # 
 # 
@@ -191,26 +204,46 @@ _:genid2 a rdf:List ;
 	rdf:rest rdf:nil .
 # 
 
-_:genid5 a owl:AllDifferent ;
-	owl:distinctMembers _:genid10 .
-
-_:genid10 a rdf:List ;
-	rdf:first :PR ;
-	rdf:rest _:genid9 .
+_:genid5 a owl:AllDisjointClasses ;
+	owl:members _:genid9 .
 
 _:genid9 a rdf:List ;
-	rdf:first :SE ;
+	rdf:first :Course ;
 	rdf:rest _:genid8 .
 
 _:genid8 a rdf:List ;
-	rdf:first :UE ;
+	rdf:first :CourseType ;
 	rdf:rest _:genid7 .
 
 _:genid7 a rdf:List ;
-	rdf:first :VO ;
+	rdf:first :Person ;
 	rdf:rest _:genid6 .
 
 _:genid6 a rdf:List ;
+	rdf:first :Room ;
+	rdf:rest rdf:nil .
+# 
+
+_:genid10 a owl:AllDifferent ;
+	owl:distinctMembers _:genid15 .
+
+_:genid15 a rdf:List ;
+	rdf:first :PR ;
+	rdf:rest _:genid14 .
+
+_:genid14 a rdf:List ;
+	rdf:first :SE ;
+	rdf:rest _:genid13 .
+
+_:genid13 a rdf:List ;
+	rdf:first :UE ;
+	rdf:rest _:genid12 .
+
+_:genid12 a rdf:List ;
+	rdf:first :VO ;
+	rdf:rest _:genid11 .
+
+_:genid11 a rdf:List ;
 	rdf:first :VU ;
 	rdf:rest rdf:nil .
 # 
