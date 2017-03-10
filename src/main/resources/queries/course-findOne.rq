@@ -1,9 +1,0 @@
-PREFIX x: <http://ifs.tuwien.ac.at/tulid/group16#>
-
-CONSTRUCT {?course ?p ?o}
-WHERE {
-  ?course a x:Course.
-  ?course x:courseID ?id
-  OPTIONAL{?course ?p ?o}
-  FILTER(?id = ?paramId)
-}

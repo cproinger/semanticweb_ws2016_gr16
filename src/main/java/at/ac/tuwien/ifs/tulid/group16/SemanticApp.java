@@ -13,8 +13,10 @@ import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.ontology.OntResource;
 import org.apache.jena.query.Dataset;
 import org.apache.jena.query.DatasetFactory;
+import org.apache.jena.rdf.model.InfModel;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.reasoner.ReasonerRegistry;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -28,7 +30,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class SemanticApp {
 	
 	private static final String TURTLE = "TURTLE";
-	private static final OntModelSpec DEFAULT_MODEL_SPEC = OntModelSpec.OWL_MEM;
+	private static final OntModelSpec DEFAULT_MODEL_SPEC = OntModelSpec.OWL_DL_MEM_RULE_INF;
 	public static final String NS_BASE = "http://ifs.tuwien.ac.at/tulid/group16";
 
 	public static void main(String[] args) {
@@ -63,12 +65,15 @@ public class SemanticApp {
 
 	@Bean
 	public Dataset dataset(@Autowired OntModel ontModel) {
-		Model unionModel = ontModel
+		Model unionModel = ModelFactory.createDefaultModel()
 							.union(readRDF("courses"))
 							.union(readRDF("courses-rooms"))
 							;
-
-		return DatasetFactory.create(unionModel);
+		InfModel infModel = ModelFactory.createInfModel(
+				ReasonerRegistry.getOWLReasoner(), 
+				ontModel, 
+				unionModel);
+		return DatasetFactory.create(infModel);
 	}
 
 

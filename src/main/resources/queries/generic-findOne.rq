@@ -1,0 +1,9 @@
+PREFIX x: <http://ifs.tuwien.ac.at/tulid/group16#>
+
+CONSTRUCT {?subj ?p ?o}
+WHERE {
+  ?subj a ?paramClass.
+  ?subj x:hasID ?id
+  OPTIONAL{?subj ?p ?o}
+  FILTER(?id = ?paramId)
+}
