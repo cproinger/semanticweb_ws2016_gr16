@@ -3,7 +3,6 @@ package at.ac.tuwien.ifs.tulid.group16.domain;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
-import org.springframework.hateoas.Identifiable;
 
 import at.ac.tuwien.ifs.tulid.group16.SemanticApp;
 

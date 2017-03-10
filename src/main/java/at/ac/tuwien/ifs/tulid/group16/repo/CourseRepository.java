@@ -3,7 +3,6 @@ package at.ac.tuwien.ifs.tulid.group16.repo;
 import java.util.List;
 
 import org.apache.jena.query.Dataset;
-import org.apache.jena.query.Query;
 import org.apache.jena.rdf.model.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +26,12 @@ public class CourseRepository extends AbstractJenaRepository<Course> {
 //		this.dataset = dataset;
 	}
 
+	@DatasetTransactional(readOnly = true)
+	public List<Course> findAll() {
+		return executeConstructAndMapToList(Queries.GENERIC_FINDALL.newQuery(pss -> {
+			pss.setIri("paramClass", SemanticApp.NS_BASE + "#Course");
+		}));
+	}
 
 	@DatasetTransactional(readOnly = true)
 	public Course findOne(String courseId) {
@@ -39,14 +44,6 @@ public class CourseRepository extends AbstractJenaRepository<Course> {
 	@Override
 	protected Course mapToObj(Resource r) {
 		return new Course(r);
-	}
-
-	
-	@DatasetTransactional(readOnly = true)
-	public List<Course> findAll() {
-		return executeConstructAndMapToList(Queries.GENERIC_FINDALL.newQuery(pss -> {
-			pss.setIri("paramClass", SemanticApp.NS_BASE + "#Course");
-		}));
 	}
 
 }
