@@ -33,6 +33,6 @@ public class CourseRepositoryTest {
 	@Test
 	public void testFindAll() {
 		List<Course> res = courseRepo.findAll();
-		assertEquals(89, res.size());
+		assertEquals(72, res.size());
 	}
 }

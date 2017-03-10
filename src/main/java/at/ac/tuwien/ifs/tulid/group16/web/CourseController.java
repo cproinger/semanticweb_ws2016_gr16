@@ -4,8 +4,11 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.Resource;
 import org.springframework.http.HttpEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,21 +32,26 @@ public class CourseController {
 	
 	@RequestMapping(path="/{courseId:[a-zA-z0-9\\.]+}", method = RequestMethod.GET)
 	@ResponseBody
-	public HttpEntity<GenericResource<Course>> getOne(@PathVariable("courseId") String courseId) {
+	public HttpEntity<Resource<Course>> getOne(@PathVariable("courseId") String courseId) {
 		Course c = repo.findOne(courseId);
 		
 		if(c != null) {
-			GenericResource<Course> res = new GenericResource<Course>(c);
-			res.add(linkTo(CourseController.class).slash(courseId).withSelfRel());
-			return new HttpEntity<GenericResource<Course>>(res);
+			Resource<Course> res = new Resource<Course>(c);
+			res.add(createSelfLink(courseId));
+			return new HttpEntity<Resource<Course>>(res);
 		} else {
 			throw new ResourceNotFoundException();
 		}
 	}
+
+	private Link createSelfLink(String courseId) {
+		return linkTo(CourseController.class).slash(courseId).withSelfRel();
+	}
 	
 	@RequestMapping(path="/", method = RequestMethod.GET)
 	@ResponseBody
-	public List<GenericResource<Course>> findAll() {
-		return new ArrayList<GenericResource<Course>>();
+	public List<Resource<Course>> findAll() {
+		return repo.findAll().stream().map(c -> new Resource<>(c, createSelfLink(c.getId())))
+			.collect(Collectors.toList());
 	}
 }

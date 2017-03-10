@@ -14,7 +14,7 @@ The resulting csv-files are stored at src/main/resources/csv.
 ## Task 3: RDFize your extracted data
 
 We used open-refine (RDFRefine-Extension) to create RDF-Files from them (src/main/resources/rdf). 
-  * Courses: The windowId query-parameter was removed with the expression `value.replace(/windowId=.*?&/, "")`
+  * Courses: The windowId query-parameter (which is some kind of session/conversation value or something) and the semester query-parameter (to remove duplicates) was removed with the expression `value.replace(/windowId=.*?&/, "").replace(/&semester=.*/, "")`
 
 Since we scraped the Links and used them as our URIs we did not need to use reconciliation. 
 

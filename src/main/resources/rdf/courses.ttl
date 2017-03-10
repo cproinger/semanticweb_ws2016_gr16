@@ -6,10 +6,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A49" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Abstrakte Maschinen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A49"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#UE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
@@ -18,10 +18,10 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#UE> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185966&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185966> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.966" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Abstrakte Maschinen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185966&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185966"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
@@ -30,10 +30,10 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#VO> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185276&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185276> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.276" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Analyse und Verifikation" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185276&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185276"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
@@ -42,10 +42,10 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#VU> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A17&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A17> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A17" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Bachelorarbeit für Informatik und Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A17&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A17"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "5.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "10.0"^^xsd:double ;
@@ -54,50 +54,50 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#PR> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A26" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Bachelorarbeit für Informatik und Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "5.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "10.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A50&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A50> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A50" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Dynamic Compilation Dynamische Übersetzer" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A50&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A50"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.291" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Formale Methoden der Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/468649> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A06" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Formale Modellierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/468649> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A39" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Forschungsseminar für DiplomandInnen und DissertantInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
@@ -106,120 +106,120 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#SE> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A05" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Fortgeschrittene funktionale Programmierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A05"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A25&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A25> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A25" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Fortgeschrittene logische Programmierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A25&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A25"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1171501> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185211&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185211> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.211" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Fortgeschrittene objektorientierte Programmierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185211&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185211"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1113253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A60&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A60> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A60" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Higher-order Logic" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A60&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A60"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/14517417> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.334" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Klinische Medizin" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185334"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185299&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185299> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.299" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Lambda Kalkuel" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185299&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185299"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/627693> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A12" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Logikprogrammierung und Constraints" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1171501> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A83" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Machine Learning for Health Informatics" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A83"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185326&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185326> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.326" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Molecular Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185326&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185326"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A47" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Physiologie und Grundlagen der Pathologie" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A47"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "4.5"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A18" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Praktikum Technische Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "1.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.341" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Privatissimum aus Fachdidaktik Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185341"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PV> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "4.0"^^xsd:double ;
@@ -228,680 +228,544 @@
 
 <http://ifs.tuwien.ac.at/tulid/group16#PV> a <http://ifs.tuwien.ac.at/tulid/group16#CourseType> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.208" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Programmiersprachen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185208"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1113253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A79" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Programmkonstruktion" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "8.8"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A28" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 1" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A36" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 1" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A29" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 2" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A37" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 2" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A30" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt Medizinische Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A20" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt aus Software Engineering & Internet Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A38" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt aus Software Engineering & Internet Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A57" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Rechtliche Grundlagen der medizinischen Versorgung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A57"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.316" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar aus Logik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185316"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2114465> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.198" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar für DiplomandInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A24" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar für DissertantInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A74" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Technische Grundlagen der Informatik für Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A74"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/293205> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.278" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Theoretische Informatik und Logik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185278"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1215581> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A84&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A84> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A84" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Theoretische Informatik und Logik für Elektrotechnik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A84&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A84"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A55" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Theoretische Informatik und Logik für Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A55"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185203&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185203> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.203" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Theorie der Berechenbarkeit" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185203&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185203"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/858253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.226" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Verteiltes Programmieren mit Space Based Computing Middleware" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1617929> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A77&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A77> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A77" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Wissenschaftliche Methodik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A77&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A77"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2112469> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A48&semester=2017S> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A48> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A48" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Übersetzerbau" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A48&semester=2017S"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A48"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2017S" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2112469> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.330" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Anatomie und Histologie" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185330"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "4.5"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A16&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A16> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A16" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Bachelorarbeit für Informatik und Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A16&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A16"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "5.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "10.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A26" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Bachelorarbeit für Informatik und Wirtschaftsinformatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "5.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "10.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A26> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A86&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A86> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A86" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Brückenkurs Programmierung für Studienanfänger" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A86&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A86"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "0.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/7112125> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A82" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Brückenkurs Programmierung für Studienanfängerinnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A82"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "0.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/293205> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185416&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185416> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.416" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Codegeneratoren" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185416&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185416"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A67&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A67> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A67" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Computational Semantics" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A67&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A67"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/3872081> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A87&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A87> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A87" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Cyber-Physical Systems Engineering Projektarbeit" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A87&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A87"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "1.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A88&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A88> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A88" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Cyber-Physical Systems Engineering Scientific Project" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A88&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A88"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "1.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185190&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185190> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.190" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Effiziente Programme" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185190&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185190"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2112469> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A85" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Epistemic Logic and Communication" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A85"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/3150589> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A42" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Formal Language Theory" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A42"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.291" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Formale Methoden der Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/468649> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185291> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A06" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Formale Modellierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/468649> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A06> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A34&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A34> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A34" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Forschungsmethoden" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A34&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A34"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1617929> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A39" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Forschungsseminar für DiplomandInnen und DissertantInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A39> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A03" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Funktionale Programmierung" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A03"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185329&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185329> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.329" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Grundlagen der Klinischen Medizin" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185329&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185329"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A02&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A02> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A02" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Grundlagen der Programmkonstruktion" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A02&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A02"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "2.9"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1113253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A07" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Grundzüge der Informatik für Vermessung und Geoinformation" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A07"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "2.5"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1188865> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A45&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A45> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A45" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Logic and Computability" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A45&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A45"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A12" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Logikprogrammierung und Constraints" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1171501> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A12> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A70&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A70> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A70" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Membrane Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A70&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A70"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185249&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185249> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.249" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Nichtklassische Logiken" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185249&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185249"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2114465> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A01&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A01> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A01" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Objektorientierte Programmiertechniken" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A01&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A01"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1113253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A04" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Optimierende Übersetzer" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A04"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A18" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Praktikum Technische Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "1.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A18> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A51&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A51> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A51" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Programming Principles of Mobile Robotics" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A51&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A51"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A79" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Programmkonstruktion" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "8.8"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A79> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185302&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185302> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.302" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computational Logic" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185302&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185302"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "8.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "16.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/627693> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A28" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 1" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A28> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A36" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 1" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A36> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A29" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 2" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A29> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A37" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Project in Computer Science 2" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A37> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A30" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt Medizinische Informatik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A30> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A20" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt aus Software Engineering & Internet Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A20> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A38" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Projekt aus Software Engineering & Internet Computing" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#PR> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "12.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1287261> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A38> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A62" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Präsentation und Moderation" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A62"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/882909> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185054&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185054> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.054" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar aus Artificial Intelligence" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185054&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185054"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2114465> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185318&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185318> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.318" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar aus Logik" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185318&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185318"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/627693> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A22&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A22> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A22" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar aus Übersetzerbau" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A22&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A22"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1972441> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.198" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar für DiplomandInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185198> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A24" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Seminar für DissertantInnen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A24> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185310&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185310> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.310" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Stackbasierte Sprachen" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185310&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185310"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/2112469> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185206&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185206> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.206" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Typsysteme" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185206&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185206"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VO> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1113253> .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.226" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Verteiltes Programmieren mit Space Based Computing Middleware" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226&semester=2016W"^^xsd:anyURI ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#VU> ;
-	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "4.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#ects> "6.0"^^xsd:double ;
-	<http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#headOfCourse> <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/1617929> .
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185226> <http://ifs.tuwien.ac.at/tulid/group16#currentSemester> "2016W" .
 
-<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A15&semester=2016W> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
+<https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A15> a <http://ifs.tuwien.ac.at/tulid/group16#Course> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseID> "185.A15" ;
 	<http://ifs.tuwien.ac.at/tulid/group16#courseName> "Wissenschaftliches Arbeiten" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A15&semester=2016W"^^xsd:anyURI ;
+	<http://ifs.tuwien.ac.at/tulid/group16#detailsURL> "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?courseNr=185A15"^^xsd:anyURI ;
 	<http://ifs.tuwien.ac.at/tulid/group16#hasCourseType> <http://ifs.tuwien.ac.at/tulid/group16#SE> ;
 	<http://ifs.tuwien.ac.at/tulid/group16#semesterHours> "2.0"^^xsd:double ;
 	<http://ifs.tuwien.ac.at/tulid/group16#ects> "3.0"^^xsd:double ;
