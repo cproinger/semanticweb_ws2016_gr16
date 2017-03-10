@@ -48,6 +48,8 @@ public class Queries {
 	public static Query COURSE_FIND = createQueryFromResourcePath("/queries/course-find.rq");
 	
 	static Builder GENERIC_FINDONE = Builder.fromResource("/queries/generic-findOne.rq");
+	static Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne-SemesterStrings.rq");
+	static Builder SEMESTER_COURSE_FINDONE = Builder.fromResource("/queries/SemesterCourse-findOne-withCourse.rq");
 	
 	static Builder GENERIC_FINDALL = Builder.fromResource("/queries/generic-findAll.rq");
 

@@ -38,6 +38,8 @@ public class CourseController {
 		if(c != null) {
 			Resource<Course> res = new Resource<Course>(c);
 			res.add(createSelfLink(courseId));
+			//hm ... gefällt mir nicht ganz so gut. 
+			res.add(linkTo(CourseController.class).slash(courseId).slash("semesterCourses").withRel("semesterCourses"));
 			return new HttpEntity<Resource<Course>>(res);
 		} else {
 			throw new ResourceNotFoundException();

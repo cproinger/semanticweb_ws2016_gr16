@@ -35,8 +35,7 @@ public class CourseRepository extends AbstractJenaRepository<Course> {
 
 	@DatasetTransactional(readOnly = true)
 	public Course findOne(String courseId) {
-		return executeConstructAndMapToObj(Queries.GENERIC_FINDONE.newQuery(pss -> {
-			pss.setIri("paramClass", SemanticApp.NS_BASE + "#Course");
+		return executeConstructAndMapToObj(Queries.COURSE_FINDONE.newQuery(pss -> {
 			pss.setLiteral("paramId", courseId);
 		}));
 	}
