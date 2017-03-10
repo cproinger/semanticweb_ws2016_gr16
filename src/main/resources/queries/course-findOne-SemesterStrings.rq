@@ -2,7 +2,7 @@ PREFIX x: <http://ifs.tuwien.ac.at/tulid/group16#>
 
 CONSTRUCT {?subj ?p ?o. ?sc x:semester ?sem. }
 WHERE {
-  ?subj a ?paramClass.
+  ?subj a x:Course.
   ?subj x:hasID ?id
   OPTIONAL{
   	?subj ?p ?o

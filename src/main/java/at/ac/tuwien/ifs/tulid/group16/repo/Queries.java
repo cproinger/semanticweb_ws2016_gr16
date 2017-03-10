@@ -15,7 +15,7 @@ import com.google.common.io.Resources;
 public class Queries {
 	
 	private final static Logger LOG = LoggerFactory.getLogger(Queries.class);
-	
+
 	static class Builder {
 		private static Builder fromResource(String resPath) {
 			try {
@@ -47,9 +47,10 @@ public class Queries {
 
 	public static Query COURSE_FIND = createQueryFromResourcePath("/queries/course-find.rq");
 	
-	static Builder GENERIC_FINDONE = Builder.fromResource("/queries/generic-findOne.rq");
-	static Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne-SemesterStrings.rq");
-	static Builder SEMESTER_COURSE_FINDONE = Builder.fromResource("/queries/SemesterCourse-findOne-withCourse.rq");
+	static final Builder GENERIC_FINDONE = Builder.fromResource("/queries/generic-findOne.rq");
+	static final Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne-SemesterStrings.rq");
+	static final Builder SEMESTER_COURSE_FINDONE = Builder.fromResource("/queries/SemesterCourse-findOne-withCourse.rq");
+	static final Builder SEMESTER_COURSE_FINDBY_COURSEID = Builder.fromResource("/queries/SemesterCourse-findByCourseId-withCourse.rq");;
 	
 	static Builder GENERIC_FINDALL = Builder.fromResource("/queries/generic-findAll.rq");
 
