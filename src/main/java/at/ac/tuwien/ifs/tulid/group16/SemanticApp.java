@@ -33,6 +33,7 @@ public class SemanticApp {
 	private static final OntModelSpec DEFAULT_MODEL_SPEC = OntModelSpec.OWL_DL_MEM_RULE_INF;
 	public static final String NS_BASE = "http://ifs.tuwien.ac.at/tulid/group16";
 	public static final String FOAF_BASE = "http://xmlns.com/foaf/0.1/";
+	public static final String PERSON_OID_BASE = "https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/";
 
 	public static void main(String[] args) {
 		SpringApplication.run(SemanticApp.class);
