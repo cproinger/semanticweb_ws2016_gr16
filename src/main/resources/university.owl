@@ -7,285 +7,249 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ifs.tuwien.ac.at/tulid/group16> .
 
-<http://ifs.tuwien.ac.at/tulid/group16> a owl:Ontology .
-# 
-# 
-# #################################################################
-# #
-# #    Object Properties
-# #
-# #################################################################
-# 
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#course
+<http://ifs.tuwien.ac.at/tulid/group16> rdf:type owl:Ontology .
 
-:course a owl:ObjectProperty ;
-	owl:inverseOf :semesterCourses ;
-	rdfs:domain :SemesterCourse ;
-	rdfs:range :Course .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#hasCourseType
+#################################################################
+#    Object Properties
+#################################################################
 
-:hasCourseType a owl:ObjectProperty , owl:IrreflexiveProperty ;
-	rdfs:domain :Course ;
-	rdfs:range :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#headOfCourse
+###  http://ifs.tuwien.ac.at/tulid/group16#course
+:course rdf:type owl:ObjectProperty ;
+        owl:inverseOf :semesterCourses ;
+        rdfs:domain :SemesterCourse ;
+        rdfs:range :Course .
 
-:headOfCourse a owl:ObjectProperty , owl:IrreflexiveProperty ;
-	rdfs:domain :SemesterCourse ;
-	rdfs:range :Professor .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#locatedAt
 
-:locatedAt a owl:ObjectProperty ;
-	rdfs:domain :SemesterCourse ;
-	rdfs:range :Room .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#semesterCourses
+###  http://ifs.tuwien.ac.at/tulid/group16#hasCourseType
+:hasCourseType rdf:type owl:ObjectProperty ,
+                        owl:IrreflexiveProperty ;
+               rdfs:domain :Course ;
+               rdfs:range :CourseType .
 
-:semesterCourses a owl:ObjectProperty .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Data properties
-# #
-# #################################################################
-# 
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#addressbuchPersonViaOidURL
 
-:addressbuchPersonViaOidURL a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :detailsURL ;
-	rdfs:domain :Person .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#capacity
+###  http://ifs.tuwien.ac.at/tulid/group16#headOfCourse
+:headOfCourse rdf:type owl:ObjectProperty ,
+                       owl:IrreflexiveProperty ;
+              rdfs:domain :SemesterCourse ;
+              rdfs:range :Professor .
 
-:capacity a owl:DatatypeProperty ;
-	rdfs:domain :Room ;
-	rdfs:range xsd:int .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#courseID
 
-:courseID a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :hasID ;
-	a owl:FunctionalProperty ;
-	rdfs:domain :Course .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#courseName
+###  http://ifs.tuwien.ac.at/tulid/group16#locatedAt
+:locatedAt rdf:type owl:ObjectProperty ;
+           rdfs:domain :SemesterCourse ;
+           rdfs:range :Room .
 
-:courseName a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :hasName ;
-	rdfs:domain :Course .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#courseURL
 
-:courseURL a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :detailsURL .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#detailsURL
+###  http://ifs.tuwien.ac.at/tulid/group16#semesterCourses
+:semesterCourses rdf:type owl:ObjectProperty .
 
-:detailsURL a owl:DatatypeProperty ;
-	rdfs:range xsd:anyURI .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#ects
 
-:ects a owl:DatatypeProperty ;
-	rdfs:domain :Course ;
-	rdfs:range xsd:double .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#hasAddress
+#################################################################
+#    Data properties
+#################################################################
 
-:hasAddress a owl:DatatypeProperty ;
-	rdfs:subPropertyOf owl:topDataProperty ;
-	rdfs:domain :Room ;
-	rdfs:range xsd:string .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#hasID
+###  http://ifs.tuwien.ac.at/tulid/group16#addressbuchPersonViaOidURL
+:addressbuchPersonViaOidURL rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf :detailsURL ;
+                            rdfs:domain :Person .
 
-:hasID a owl:DatatypeProperty , owl:FunctionalProperty ;
-	rdfs:range xsd:string .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#hasName
 
-:hasName a owl:DatatypeProperty ;
-	rdfs:range xsd:string .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#isInBuilding
+###  http://ifs.tuwien.ac.at/tulid/group16#capacity
+:capacity rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Room ;
+          rdfs:range xsd:int .
 
-:isInBuilding a owl:DatatypeProperty ;
-	rdfs:subPropertyOf owl:topDataProperty ;
-	rdfs:domain :Room ;
-	rdfs:range xsd:string .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#roomID
 
-:roomID a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :hasID ;
-	rdfs:domain :Room .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#roomName
+###  http://ifs.tuwien.ac.at/tulid/group16#courseID
+:courseID rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :hasID ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Course .
 
-:roomName a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :hasName ;
-	rdfs:domain :Room .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#roomURL
 
-:roomURL a owl:DatatypeProperty ;
-	rdfs:subPropertyOf :detailsURL ;
-	rdfs:domain :Room .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#semester
+###  http://ifs.tuwien.ac.at/tulid/group16#courseName
+:courseName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf :hasName ;
+            rdfs:domain :Course .
 
-:semester a owl:DatatypeProperty ;
-	rdfs:domain :SemesterCourse .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#semesterHours
 
-:semesterHours a owl:DatatypeProperty ;
-	rdfs:domain :Course ;
-	rdfs:range xsd:double .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Classes
-# #
-# #################################################################
-# 
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#Course
+###  http://ifs.tuwien.ac.at/tulid/group16#courseURL
+:courseURL rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :detailsURL .
 
-:Course a owl:Class ;
-	rdfs:comment "A course usually has a head Professor and is located at a specific Room. They have a type as well."@en .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#CourseType
 
-:CourseType a owl:Class ;
-	rdfs:comment "Courses usually have types like Seminar, Lecture, ..."@en .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#Person
+###  http://ifs.tuwien.ac.at/tulid/group16#detailsURL
+:detailsURL rdf:type owl:DatatypeProperty ;
+            rdfs:range xsd:anyURI .
 
-:Person a owl:Class .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#Professor
 
-:Professor a owl:Class ;
-	rdfs:subClassOf :Person .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#Room
+###  http://ifs.tuwien.ac.at/tulid/group16#ects
+:ects rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Course ;
+      rdfs:range xsd:double .
 
-:Room a owl:Class ;
-	rdfs:comment "Courses are located in Rooms"@en .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#SemesterCourse
 
-:SemesterCourse a owl:Class .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Individuals
-# #
-# #################################################################
-# 
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#PR
+###  http://ifs.tuwien.ac.at/tulid/group16#hasAddress
+:hasAddress rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Room ;
+            rdfs:range xsd:string .
 
-:PR a owl:NamedIndividual , :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#SE
 
-:SE a owl:NamedIndividual , :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#UE
+###  http://ifs.tuwien.ac.at/tulid/group16#hasID
+:hasID rdf:type owl:DatatypeProperty ,
+                owl:FunctionalProperty ;
+       rdfs:range xsd:string .
 
-:UE a owl:NamedIndividual , :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#VO
 
-:VO a owl:NamedIndividual , :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#VU
+###  http://ifs.tuwien.ac.at/tulid/group16#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string .
 
-:VU a owl:NamedIndividual , :CourseType .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#person469221
 
-:person469221 a owl:NamedIndividual , :Professor ;
-	:addressbuchPersonViaOidURL "https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221"^^xsd:anyURI ;
-	:hasName "Krall, Andreas"^^xsd:string .
-# 
-# http://ifs.tuwien.ac.at/tulid/group16#185.A49
+###  http://ifs.tuwien.ac.at/tulid/group16#isInBuilding
+:isInBuilding rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Room ;
+              rdfs:range xsd:string .
 
-:185.A49 a owl:NamedIndividual , :Course ;
-	:hasCourseType :UE ;
-	:courseID "185.A49"^^xsd:string ;
-	:courseName "Abstrakte Maschinen"^^xsd:string ;
-	:courseURL "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?windowId=afa&courseNr=185A49&semester=2017S"^^xsd:anyURI ;
-	:semesterHours "2.0"^^xsd:decimal .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    General axioms
-# #
-# #################################################################
-# 
-# 
 
-_:genid1 a owl:AllDisjointClasses ;
-	owl:members _:genid6 .
+###  http://ifs.tuwien.ac.at/tulid/group16#roomID
+:roomID rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :hasID ;
+        rdfs:domain :Room .
 
-_:genid6 a rdf:List ;
-	rdf:first :Course ;
-	rdf:rest _:genid5 .
 
-_:genid5 a rdf:List ;
-	rdf:first :CourseType ;
-	rdf:rest _:genid4 .
+###  http://ifs.tuwien.ac.at/tulid/group16#roomName
+:roomName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf :hasName ;
+          rdfs:domain :Room .
 
-_:genid4 a rdf:List ;
-	rdf:first :Person ;
-	rdf:rest _:genid3 .
 
-_:genid3 a rdf:List ;
-	rdf:first :Room ;
-	rdf:rest _:genid2 .
+###  http://ifs.tuwien.ac.at/tulid/group16#roomURL
+:roomURL rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf :detailsURL ;
+         rdfs:domain :Room .
 
-_:genid2 a rdf:List ;
-	rdf:first :SemesterCourse ;
-	rdf:rest rdf:nil .
-# 
 
-_:genid7 a owl:AllDifferent ;
-	owl:distinctMembers _:genid12 .
+###  http://ifs.tuwien.ac.at/tulid/group16#semester
+:semester rdf:type owl:DatatypeProperty ;
+          rdfs:domain :SemesterCourse .
 
-_:genid12 a rdf:List ;
-	rdf:first :PR ;
-	rdf:rest _:genid11 .
 
-_:genid11 a rdf:List ;
-	rdf:first :SE ;
-	rdf:rest _:genid10 .
+###  http://ifs.tuwien.ac.at/tulid/group16#semesterHours
+:semesterHours rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Course ;
+               rdfs:range xsd:double .
 
-_:genid10 a rdf:List ;
-	rdf:first :UE ;
-	rdf:rest _:genid9 .
 
-_:genid9 a rdf:List ;
-	rdf:first :VO ;
-	rdf:rest _:genid8 .
+#################################################################
+#    Classes
+#################################################################
 
-_:genid8 a rdf:List ;
-	rdf:first :VU ;
-	rdf:rest rdf:nil .
-# 
-# Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
+###  http://ifs.tuwien.ac.at/tulid/group16#Course
+:Course rdf:type owl:Class ;
+        rdfs:comment "A course usually has a head Professor and is located at a specific Room. They have a type as well."@en .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#CourseType
+:CourseType rdf:type owl:Class ;
+            rdfs:comment "Courses usually have types like Seminar, Lecture, ..."@en .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#Person
+:Person rdf:type owl:Class ;
+        owl:equivalentClass foaf:Person .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#Professor
+:Professor rdf:type owl:Class ;
+           rdfs:subClassOf :Person .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#Room
+:Room rdf:type owl:Class ;
+      rdfs:comment "Courses are located in Rooms"@en .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#SemesterCourse
+:SemesterCourse rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+foaf:Person rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://ifs.tuwien.ac.at/tulid/group16#PR
+:PR rdf:type owl:NamedIndividual ,
+             :CourseType .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#SE
+:SE rdf:type owl:NamedIndividual ,
+             :CourseType .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#UE
+:UE rdf:type owl:NamedIndividual ,
+             :CourseType .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#VO
+:VO rdf:type owl:NamedIndividual ,
+             :CourseType .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#VU
+:VU rdf:type owl:NamedIndividual ,
+             :CourseType .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#person469221
+:person469221 rdf:type owl:NamedIndividual ,
+                       :Professor ;
+              :addressbuchPersonViaOidURL "https://tiss.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/469221"^^xsd:anyURI ;
+              :hasName "Krall, Andreas"^^xsd:string .
+
+
+###  http://ifs.tuwien.ac.at/tulid/group16#185.A49
+:185.A49 rdf:type owl:NamedIndividual ,
+                  :Course ;
+         :hasCourseType :UE ;
+         :courseID "185.A49"^^xsd:string ;
+         :courseName "Abstrakte Maschinen"^^xsd:string ;
+         :courseURL "https://tiss.tuwien.ac.at/course/courseDetails.xhtml?windowId=afa&courseNr=185A49&semester=2017S"^^xsd:anyURI ;
+         :semesterHours 2.0 .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Course
+                :CourseType
+                :Person
+                :Room
+                :SemesterCourse
+              )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :PR
+                        :SE
+                        :UE
+                        :VO
+                        :VU
+                      )
+] .
+
+
+###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
