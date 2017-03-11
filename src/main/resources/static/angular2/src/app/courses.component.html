@@ -1,0 +1,20 @@
+<!-- <h1> -->
+<!--   {{title}} -->
+<!-- </h1> -->
+
+<div *ngIf="loaded">
+	<table>
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let co of courses">
+				<td><a href="co.selfLink">{{co.id}}</a></td>
+				<td>{{co.name}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

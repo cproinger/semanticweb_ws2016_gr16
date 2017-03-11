@@ -20,7 +20,7 @@ import at.ac.tuwien.ifs.tulid.group16.domain.Course;
 import at.ac.tuwien.ifs.tulid.group16.repo.CourseRepository;
 
 @RestController
-@RequestMapping(path="/courses/")
+@RequestMapping(path="/courses")
 public class CourseController {
 
 	private CourseRepository repo;
@@ -50,7 +50,7 @@ public class CourseController {
 		return linkTo(CourseController.class).slash(courseId).withSelfRel();
 	}
 	
-	@RequestMapping(path="/", method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET)
 	@ResponseBody
 	public List<Resource<Course>> findAll() {
 		return repo.findAll().stream().map(c -> new Resource<>(c, createSelfLink(c.getId())))
