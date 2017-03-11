@@ -29,6 +29,11 @@
                rdfs:range :CourseType .
 
 
+###  http://ifs.tuwien.ac.at/tulid/group16#hasOid
+:hasOid rdf:type owl:ObjectProperty ;
+        rdfs:domain :Person .
+
+
 ###  http://ifs.tuwien.ac.at/tulid/group16#headOfCourse
 :headOfCourse rdf:type owl:ObjectProperty ,
                        owl:IrreflexiveProperty ;
