@@ -50,8 +50,9 @@ public class Queries {
 	static final Builder GENERIC_FINDONE = Builder.fromResource("/queries/generic-findOne.rq");
 	static final Builder COURSE_FINDONE = Builder.fromResource("/queries/course-findOne-SemesterStrings.rq");
 	static final Builder SEMESTER_COURSE_FINDONE = Builder.fromResource("/queries/SemesterCourse-findOne-withCourse.rq");
-	static final Builder SEMESTER_COURSE_FINDBY_COURSEID = Builder.fromResource("/queries/SemesterCourse-findByCourseId-withCourse.rq");;
-	
+	static final Builder SEMESTER_COURSE_FINDBY_COURSEID = Builder.fromResource("/queries/SemesterCourse-findByCourseId-withCourse.rq");
+	static final Builder PERSON_FINDONE = Builder.fromResource("/queries/person-findOne-Oid.rq");
+
 	static Builder GENERIC_FINDALL = Builder.fromResource("/queries/generic-findAll.rq");
 
 	private static Query createQueryFromResourcePath(String q) {

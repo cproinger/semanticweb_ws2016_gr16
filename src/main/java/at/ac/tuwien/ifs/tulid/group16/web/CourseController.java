@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import at.ac.tuwien.ifs.tulid.group16.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.Resource;
@@ -49,7 +50,7 @@ public class CourseController {
 	private Link createSelfLink(String courseId) {
 		return linkTo(CourseController.class).slash(courseId).withSelfRel();
 	}
-	
+
 	@RequestMapping(method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public List<Resource<Course>> findAll() {
