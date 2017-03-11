@@ -68,6 +68,7 @@ public class SemanticApp {
 		Model unionModel = ModelFactory.createDefaultModel()
 							.union(readRDF("courses"))
 							.union(readRDF("courses-rooms"))
+							.union(readRDF("rooms"))
 							;
 		InfModel infModel = ModelFactory.createInfModel(
 				ReasonerRegistry.getOWLReasoner(), 
