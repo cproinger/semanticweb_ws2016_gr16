@@ -30,7 +30,7 @@ public class CourseController {
 		this.repo = repo;
 	}
 	
-	@RequestMapping(path="/{courseId:[a-zA-z0-9\\.]+}", method = RequestMethod.GET)
+	@RequestMapping(path="/{courseId:[a-zA-z0-9\\.]+}", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public HttpEntity<Resource<Course>> getOne(@PathVariable("courseId") String courseId) {
 		Course c = repo.findOne(courseId);
@@ -50,7 +50,7 @@ public class CourseController {
 		return linkTo(CourseController.class).slash(courseId).withSelfRel();
 	}
 	
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public List<Resource<Course>> findAll() {
 		return repo.findAll().stream().map(c -> new Resource<>(c, createSelfLink(c.getId())))

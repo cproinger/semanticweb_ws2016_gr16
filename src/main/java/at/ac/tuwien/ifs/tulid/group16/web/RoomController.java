@@ -29,7 +29,7 @@ public class RoomController {
 		this.repo = repo;
 	}
 	
-	@RequestMapping(path="/{roomId:[A-Z0-9]+}", method = RequestMethod.GET)
+	@RequestMapping(path="/{roomId:[A-Z0-9]+}", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public HttpEntity<Resource<Room>> getOne(@PathVariable("roomId") String roomId) {
 		Room r = repo.findOne(roomId);
@@ -46,7 +46,7 @@ public class RoomController {
 		return linkTo(RoomController.class).slash(roomId).withSelfRel();
 	}
 	
-	@RequestMapping(path="/", method = RequestMethod.GET)
+	@RequestMapping(path="/", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public List<Resource<Room>> findAll() {
 		return repo.findAll().stream().map(r -> new Resource<>(r, createSelfLink(r.getId()) )).collect(Collectors.toList());

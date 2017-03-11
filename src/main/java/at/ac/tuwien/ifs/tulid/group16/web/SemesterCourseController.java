@@ -30,7 +30,7 @@ public class SemesterCourseController {
 		this.repo = repo;
 	}
 
-	@RequestMapping(path = "/{courseId:[a-zA-Z0-9\\.]+}/semester/{semester}")
+	@RequestMapping(path = "/{courseId:[a-zA-Z0-9\\.]+}/semester/{semester}", produces="application/hal+json")
 	public HttpEntity<Resource<SemesterCourse>> getOne(@PathVariable("courseId") String courseId,
 			@PathVariable("semester") String semester) {
 		SemesterCourse sc = repo.findOne(courseId, semester);
@@ -50,7 +50,7 @@ public class SemesterCourseController {
 		return linkTo(SemesterCourseController.class).slash(courseId).slash("semester").slash(semester).withSelfRel();
 	}
 
-	@RequestMapping(path = "/{courseId:[a-zA-Z0-9\\.]+}", method = RequestMethod.GET)
+	@RequestMapping(path = "/{courseId:[a-zA-Z0-9\\.]+}", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public List<Resource<SemesterCourse>> findAll(
 			@PathVariable("courseId") String courseId) {
