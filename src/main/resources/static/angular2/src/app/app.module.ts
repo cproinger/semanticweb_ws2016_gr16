@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { Observable } from 'rxjs/Rx';
+import 'rxjs/add/operator/switchMap';
 import { RouterModule} from "@angular/router";
 
 import { AppComponent } from './app.component';

@@ -11,4 +11,8 @@ export class Api {
   getCourses() {
     return this.http.get('http://localhost:8080/courses');
   }
+  
+  getCourse(id : string) {
+    return this.http.get('http://localhost:8080/courses/' + id)
+  }
 }
