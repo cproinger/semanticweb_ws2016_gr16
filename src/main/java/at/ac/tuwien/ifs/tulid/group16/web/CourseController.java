@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import at.ac.tuwien.ifs.tulid.group16.domain.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.Resource;
@@ -30,7 +31,7 @@ public class CourseController {
 		this.repo = repo;
 	}
 	
-	@RequestMapping(path="/{courseId:[a-zA-z0-9\\.]+}", method = RequestMethod.GET)
+	@RequestMapping(path="/{courseId:[a-zA-z0-9\\.]+}", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public HttpEntity<Resource<Course>> getOne(@PathVariable("courseId") String courseId) {
 		Course c = repo.findOne(courseId);
@@ -50,7 +51,7 @@ public class CourseController {
 		return linkTo(CourseController.class).slash(courseId).withSelfRel();
 	}
 	
-	@RequestMapping(path="/", method = RequestMethod.GET)
+	@RequestMapping(path="/", method = RequestMethod.GET, produces="application/hal+json")
 	@ResponseBody
 	public List<Resource<Course>> findAll() {
 		return repo.findAll().stream().map(c -> new Resource<>(c, createSelfLink(c.getId())))
