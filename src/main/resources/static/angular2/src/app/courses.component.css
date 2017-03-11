@@ -1,15 +1,28 @@
 table tr:nth-child(even) {
-    background-color: #eee;
+	background-color: #eee;
 }
+
 table tr:nth-child(odd) {
-    background-color: #fff;
+	background-color: #fff;
 }
+
 table th {
-    color: white;
-    background-color: black;
+	color: white;
+	background-color: black;
 }
 
 table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.clickable {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
+
+.clickable:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #555;
 }
