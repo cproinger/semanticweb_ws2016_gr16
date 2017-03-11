@@ -6,6 +6,7 @@ import { Observable } from 'rxjs/Rx';
 import { RouterModule} from "@angular/router";
 
 import { AppComponent } from './app.component';
+import { CourseDetailsComponent } from './courseDetails.component';
 import { CoursesComponent } from './courses.component';
 import { SemesterCoursesComponent } from './semester-courses.component';
 import { TopMenuComponent } from './top-menu.component';
@@ -13,13 +14,17 @@ import { routerConfig } from './top-menu.config.';
 
 @NgModule({
   declarations: [
-    AppComponent, CoursesComponent, SemesterCoursesComponent, TopMenuComponent
+    AppComponent, CoursesComponent, SemesterCoursesComponent, TopMenuComponent,
+    CourseDetailsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(routerConfig)
+  ],
+  exports: [
+  	RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

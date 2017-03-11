@@ -8,12 +8,16 @@
 			<tr>
 				<th>ID</th>
 				<th>Name</th>
+				<th>ECTS</th>
+				<th>Semester Hours</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr *ngFor="let co of courses">
-				<td><a href="co.selfLink">{{co.id}}</a></td>
+				<td><span class="clickable" (click)="onDetails(co)">{{co.id}}</span></td>
 				<td>{{co.name}}</td>
+				<td>{{co.ects}}</td>
+				<td>{{co.semesterHours}}</td>
 			</tr>
 		</tbody>
 	</table>
