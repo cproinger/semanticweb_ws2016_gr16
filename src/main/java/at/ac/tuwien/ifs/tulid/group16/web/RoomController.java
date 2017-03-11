@@ -35,7 +35,7 @@ public class RoomController {
 		Room r = repo.findOne(roomId);
 		
 		if(r != null) {
-			Resource<Room> res = new Resource<Room>(r);
+			Resource<Room> res = new Resource<Room>(r, createSelfLink(roomId));
 			return new HttpEntity<Resource<Room>>(res);
 		} else {
 			throw new ResourceNotFoundException();

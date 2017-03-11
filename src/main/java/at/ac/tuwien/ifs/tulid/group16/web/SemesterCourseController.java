@@ -2,7 +2,9 @@ package at.ac.tuwien.ifs.tulid.group16.web;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import at.ac.tuwien.ifs.tulid.group16.domain.Course;
+import at.ac.tuwien.ifs.tulid.group16.domain.Room;
 import at.ac.tuwien.ifs.tulid.group16.domain.SemesterCourse;
 import at.ac.tuwien.ifs.tulid.group16.repo.SemesterCourseRespository;
 
@@ -40,10 +43,22 @@ public class SemesterCourseController {
 			res.add(createSelfLink(courseId, semester));
 			// hm ... gefällt mir nicht ganz so gut.
 			res.add(linkTo(CourseController.class).slash(courseId).withRel("course"));
+			res.add(createRoomLinks(sc));
 			return new HttpEntity<Resource<SemesterCourse>>(res);
 		} else {
 			throw new ResourceNotFoundException();
 		}
+	}
+	
+	private Set<Link> createRoomLinks(SemesterCourse sc) {
+		Set<Link> result = new HashSet<>();
+		if (sc == null || sc.getRooms() == null || sc.getRooms().isEmpty()) {
+			return result;
+		}
+		for (String r : sc.getRooms()) {
+				result.add(linkTo(RoomController.class).slash(r).withRel("rooms"));
+		}
+		return result;
 	}
 
 	private Link createSelfLink(String courseId, String semester) {

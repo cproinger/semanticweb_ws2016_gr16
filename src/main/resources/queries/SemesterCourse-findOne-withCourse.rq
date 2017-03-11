@@ -1,6 +1,6 @@
 PREFIX x: <http://ifs.tuwien.ac.at/tulid/group16#>
 
-CONSTRUCT {?subj ?p ?o. ?c ?cp ?co. }
+CONSTRUCT {?subj ?p ?o. ?c ?cp ?co. ?r ?rp ?ro}
 WHERE {
   ?subj a x:SemesterCourse.
   ?subj x:course/x:hasID ?id.
@@ -11,6 +11,10 @@ WHERE {
   OPTIONAL{
   	?subj x:course ?c.
   	?c ?cp ?co
+  }
+  OPTIONAL{
+  	?subj x:locatedAt ?r.
+  	?r ?rp ?ro.
   }
   FILTER(?id = ?paramId && ?semester = ?paramSemester)
 }

@@ -35,5 +35,6 @@ public class Room extends AbstractJenaResource {
 		return getPropertyObject(SemanticApp.NS_BASE + "#hasAddress")
 		.asLiteral().getString();
 	}
+	
 
 }
