@@ -7,6 +7,7 @@
 		<thead>
 			<tr>
 				<th>ID</th>
+				<th>Type</th>
 				<th>Name</th>
 				<th>ECTS</th>
 				<th>Semester Hours</th>
@@ -15,6 +16,7 @@
 		<tbody>
 			<tr *ngFor="let co of courses">
 				<td><span class="clickable" (click)="onDetails(co)">{{co.id}}</span></td>
+				<td>{{co.type}}</td>
 				<td>{{co.name}}</td>
 				<td>{{co.ects}}</td>
 				<td>{{co.semesterHours}}</td>

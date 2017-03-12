@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   providers: [Api]
 })
 export class CoursesComponent implements OnInit {
-  public courses;
+  public courses : Array<any>;
   public loaded: boolean = false;
   public errorMessage;
 
@@ -20,7 +20,7 @@ export class CoursesComponent implements OnInit {
   
   ngOnInit() {
     
-    this.courses = this.api.getCourses()
+    this.api.getCourses()
       .subscribe(
         cs => this.courses = this.toCourseObj(cs.json()),
         e => this.errorMessage = e,

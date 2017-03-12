@@ -33,9 +33,9 @@ public abstract class AbstractJenaRepository<E> {
 	protected <X> X executeConstruct(final Query q, QueryConstructMapper<X> qcm) {
 		try (QueryExecution qe = QueryExecutionFactory.create(q, dataset)) {
 			Model model = qe.execConstruct();
-			StringBuilderWriter w = new StringBuilderWriter();
-			model.write(w, "TURTLE");
-			LOG.info("model: \n" + w.toString());
+//			StringBuilderWriter w = new StringBuilderWriter();
+//			model.write(w, "TURTLE");
+//			LOG.info("model: \n" + w.toString());
 			Property p = model.getProperty(idPropertyURI);
 			ResIterator ri = model.listSubjectsWithProperty(p);
 			return qcm.mapResources(ri);
@@ -51,7 +51,7 @@ public abstract class AbstractJenaRepository<E> {
 			if (ri.hasNext()) {
 				throw new RuntimeException("non unique result");
 			}
-			LOG.info("resource: " + r);
+//			LOG.info("resource: " + r);
 			return mapToObj(r);
 		});
 	}
@@ -63,7 +63,7 @@ public abstract class AbstractJenaRepository<E> {
 			ArrayList<E> result = new ArrayList<>();
 			while(ri.hasNext()) {
 				Resource r = ri.next();
-				LOG.info("resource: " + r);
+//				LOG.info("resource: " + r);
 				result.add(mapToObj(r));
 			}
 			return result;
