@@ -320,7 +320,7 @@
 	foaf:phone "+43 (1) 58801 18504" ;
 	foaf:mbox "ewa.vesely@tuwien.ac.at" ;
 	foaf:img "https://tiss.tuwien.ac.at/illustration/vorschau_anzeigen/36963.png?code=49291_v1" ;
-	<http://ifs.tuwien.ac.at/tulid/group16#hasOid> "s.tuwien.ac.at/adressbuch/adressbuch/person_via_oid/ps://tiss.tuwien.ac.at/adressbuch/adressbuch/orgeinheit/1559" .
+	<http://ifs.tuwien.ac.at/tulid/group16#hasOid> "2629997" .
 
 <https://tiss.tuwien.ac.at/adressbuch/adressbuch/person/133566> a foaf:Person ;
 	foaf:name "Sablatnig Robert" ;
