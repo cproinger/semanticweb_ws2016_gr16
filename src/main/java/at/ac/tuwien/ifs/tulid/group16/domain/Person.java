@@ -63,7 +63,7 @@ public class Person extends AbstractJenaResource {
 
     public String getOid() {
         try {
-            return getPropertyObject(SemanticApp.NS_BASE + "#hasOid").asResource().getURI();
+            return getPropertyObject(SemanticApp.NS_BASE + "#hasOid").asLiteral().getString();
         } catch (Exception e){
             return "";
         }
