@@ -7,4 +7,5 @@ export class Person {
   public phoneNumber: string;
   public email: string;
   public title: string;
+  public imageUri: string;
 }
