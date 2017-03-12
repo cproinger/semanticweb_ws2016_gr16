@@ -69,6 +69,14 @@ public class Person extends AbstractJenaResource {
         }
     }
 
+    public String getImageUri() {
+        try {
+            return getPropertyObject(SemanticApp.FOAF_BASE + "img").asLiteral().getString();
+        } catch (Exception e){
+            return "";
+        }
+    }
+
     public String getURI() {
         return uri;
     }
