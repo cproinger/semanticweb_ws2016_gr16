@@ -4,7 +4,7 @@ import { PersonDetailsComponent } from './person-details.component';
 import { PersonsListComponent } from './person-list.component';
 import { RoomDetailsComponent } from './room-details.component';
 import { RoomsListComponent } from './rooms-list.component';
-import { SemesterCoursesListComponent } from './semester-courses.component';
+import { SemesterCoursesListComponent } from './semester-courses-list.component';
 import { Routes } from '@angular/router';
 
 export const routerConfig: Routes = [
