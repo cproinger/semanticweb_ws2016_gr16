@@ -23,15 +23,14 @@ public class PersonRepository extends AbstractJenaRepository<Person> {
 
     @DatasetTransactional(readOnly = true)
     public List<Person> findAll() {
-        return executeConstructAndMapToList(Queries.GENERIC_FINDALL.newQuery(pss -> {
-            pss.setIri("paramClass", SemanticApp.NS_BASE + "#Person");
+        return executeConstructAndMapToList(Queries.PERSON_FINDALL_OID.newQuery(pss -> {
         }));
     }
 
     @DatasetTransactional(readOnly = true)
     public Person findOne(String personOid) {
-        return executeConstructAndMapToObj(Queries.PERSON_FINDONE.newQuery(pss -> {
-            pss.setIri("paramOid", SemanticApp.PERSON_OID_BASE+personOid);
+        return executeConstructAndMapToObj(Queries.PERSON_FINDONE_OID.newQuery(pss -> {
+            pss.setLiteral("paramOid", personOid);
         }));
     }
 
