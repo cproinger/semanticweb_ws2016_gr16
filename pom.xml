@@ -4,7 +4,7 @@
 	<groupId>at.ac.tuwien.ifs.tulid.group16</groupId>
 	<artifactId>semanticapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+<!-- 	<packaging>war</packaging> -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -69,6 +69,21 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<resource>
+                <directory>${basedir}/src/main/webapp</directory>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+                <targetPath>static</targetPath>
+            </resource>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </resource>
+		</resources>
 		<pluginManagement>
 			<plugins>
 				<!--This plugin's configuration is used to store Eclipse m2e settings 
@@ -202,6 +217,18 @@
 <!-- 					</execution> -->
 <!-- 				</executions> -->
 <!-- 			</plugin> -->
+			<plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring.boot.starter.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 		</plugins>
 	</build>
 </project>
