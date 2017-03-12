@@ -46,4 +46,13 @@ public class SemesterCourse extends AbstractJenaResource {
 	public Course getCourse() {
 		return course;
 	}
+
+	public String getHeadOfCourse() {
+		try {
+			return getPropertyObject(SemanticApp.NS_BASE + "#headOfCourse")
+				.asResource().getURI();
+		} catch (Exception e){
+			return "";
+		}
+	}
 }
