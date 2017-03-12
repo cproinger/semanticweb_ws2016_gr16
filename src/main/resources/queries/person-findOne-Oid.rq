@@ -3,9 +3,9 @@ PREFIX x: <http://ifs.tuwien.ac.at/tulid/group16#>
 CONSTRUCT {?subj ?p ?o.}
 WHERE {
   ?subj a x:Person.
-  ?subj x:hasOid ?oid
+  ?subj x:hasOid ?oid.
   OPTIONAL{
   	?subj ?p ?o
-  }
-  FILTER(?oid = ?paramOid)
+  }.
+  FILTER(?oid = ?paramOid).
 }
