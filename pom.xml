@@ -102,42 +102,106 @@
 		</pluginManagement>
 		<plugins>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>1.6.0</version>
+				<groupId>com.github.eirslett</groupId>
+				<artifactId>frontend-maven-plugin</artifactId>
+				<version>1.3</version>
+				<configuration>
+					<nodeVersion>v6.10.0</nodeVersion>
+					<npmVersion>3.10.10</npmVersion>
+					<workingDirectory>src/main/angular2</workingDirectory>
+					<installDirectory>.node</installDirectory>
+				</configuration>
 				<executions>
 					<execution>
-						<id>exec-npm-install</id>
-						<phase>generate-sources</phase>
-						<configuration>
-							<workingDirectory>${project.basedir}/src/main/angular2</workingDirectory>
-							<executable>npm</executable>
-							<arguments>
-								<argument>install</argument>
-							</arguments>
-						</configuration>
+						<id>install node and npm</id>
+						<phase>initialize</phase>
 						<goals>
-							<goal>exec</goal>
+							<goal>install-node-and-npm</goal>
 						</goals>
 					</execution>
-				 
 					<execution>
-						<id>exec-npm-run-tsc</id>
-						<phase>generate-sources</phase>
-						<configuration>
-							<workingDirectory>${project.basedir}/src/main/angular2</workingDirectory>
-							<executable>ng</executable>
-		                    <arguments>
-		                        <argument>build</argument>
-		                        <argument>--base-href=/</argument>
-		                    </arguments>
-						</configuration>
+						<id>npm install</id>
+						<phase>initialize</phase>
 						<goals>
-							<goal>exec</goal>
+							<goal>npm</goal>
 						</goals>
+						<configuration>
+							<arguments>install</arguments>
+						</configuration>
 					</execution>
+					<!-- i think we don't need this because @angular/cli is in
+					package.json devDependencies -->
+<!-- 					<execution> -->
+<!--                         <id>angular-cli install</id> -->
+<!--                         <goals> -->
+<!--                             <goal>npm</goal> -->
+<!--                         </goals> -->
+<!--                         <configuration> -->
+<!--                             <arguments>install - -no-optional -g @angular/cli</arguments> -->
+<!--                         </configuration> -->
+<!--                     </execution> -->
+					<execution>
+						<id>npm run-script mavenbuild</id>
+						<phase>compile</phase>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<workingDirectory>src/main/angular2</workingDirectory>
+							<arguments>run-script mavenbuild</arguments>
+						</configuration>
+					</execution>
+					<!-- 
+					<execution>
+						<id>npm run-script maventest</id>
+						<phase>test</phase>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<arguments>run-script maventest</arguments>
+						</configuration>
+					</execution>
+					 -->
 				</executions>
 			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.codehaus.mojo</groupId> -->
+<!-- 				<artifactId>exec-maven-plugin</artifactId> -->
+<!-- 				<version>1.6.0</version> -->
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>exec-npm-install</id> -->
+<!-- 						<phase>generate-sources</phase> -->
+<!-- 						<configuration> -->
+<!-- 							<workingDirectory>${project.basedir}/src/main/angular2</workingDirectory> -->
+<!-- 							<executable>npm</executable> -->
+<!-- 							<arguments> -->
+<!-- 								<argument>install</argument> -->
+<!-- 							</arguments> -->
+<!-- 						</configuration> -->
+<!-- 						<goals> -->
+<!-- 							<goal>exec</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+				 
+<!-- 					<execution> -->
+<!-- 						<id>exec-npm-run-tsc</id> -->
+<!-- 						<phase>generate-sources</phase> -->
+<!-- 						<configuration> -->
+<!-- 							<workingDirectory>${project.basedir}/src/main/angular2</workingDirectory> -->
+<!-- 							<executable>ng</executable> -->
+<!-- 		                    <arguments> -->
+<!-- 		                        <argument>build</argument> -->
+<!-- 		                        <argument > - - base-href= / < /argument> -->
+<!-- 		                    </arguments> -->
+<!-- 						</configuration> -->
+<!-- 						<goals> -->
+<!-- 							<goal>exec</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
+<!-- 			</plugin> -->
 		</plugins>
 	</build>
 </project>
