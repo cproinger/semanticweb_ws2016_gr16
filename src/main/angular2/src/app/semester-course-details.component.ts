@@ -13,7 +13,7 @@ import { Observable } from 'rxjs';
       <tr><td>type: </td><td>{{semesterCourse.course.type}}</td></tr>
       <tr><td>name: </td><td>{{semesterCourse.course.name}}</td></tr>
       <tr><td>semester: </td><td>{{semesterCourse.semester}}</td></tr>
-      <tr><td>headOfCourse: </td><td>TODO</td></tr>
+      <tr><td>headOfCourse: </td><td><span class="clickable" (click)="onPersonDetails(semesterCourse.headOfCourse.substring(63, semesterCourse.headOfCourse.Length))">{{semesterCourse.headOfCourse.substring(63, semesterCourse.headOfCourse.Length)}}</span></td></tr>
     </table>
     <h3>Rooms</h3>
     <table *ngFor="let r of semesterCourse.rooms">
@@ -33,19 +33,19 @@ import { Observable } from 'rxjs';
   providers: [Api]
 })
 export class SemesterCourseDetailsComponent implements OnInit {
-  
+
   public semesterCourse;
   public errorMessage : String = "";
   public loaded : boolean = false;
   private sub : Observable<any>;
-  
-  constructor(private api : Api, private route : ActivatedRoute, 
+
+  constructor(private api : Api, private route : ActivatedRoute,
     private router : Router) {
-    
+
   }
-  
+
   ngOnInit() {
-    this.route.params.switchMap((params : Params) => 
+    this.route.params.switchMap((params : Params) =>
     this.sub = this.api.getSemesterCourse(params['id'], params['semester']))
       .subscribe(
         cs => {
@@ -55,11 +55,14 @@ export class SemesterCourseDetailsComponent implements OnInit {
         () => this.loaded = true
       );
   }
-  
+
   onCourseDetails() {
     this.router.navigate(['/Courses/', this.semesterCourse.course.id]);
   }
   onRoomDetails(r : string) {
     this.router.navigate(['Rooms', encodeURIComponent(r)]);
+  }
+  onPersonDetails(p : string) {
+    this.router.navigate(['/Persons/', encodeURIComponent(p)]);
   }
 }
