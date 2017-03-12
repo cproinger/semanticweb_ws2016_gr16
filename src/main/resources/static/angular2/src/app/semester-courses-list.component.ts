@@ -33,7 +33,7 @@ import { SemesterCourse } from './SemesterCourse';
   styleUrls: ['courses.component.css'],
   providers: [Api]
 })
-export class SemesterCoursesComponent implements OnInit {
+export class SemesterCoursesListComponent implements OnInit {
 
   public courses: Array<any>;
   public loaded: boolean = false;

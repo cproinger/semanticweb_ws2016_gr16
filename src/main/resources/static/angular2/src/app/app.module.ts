@@ -9,16 +9,19 @@ import { RouterModule} from "@angular/router";
 import { AppComponent } from './app.component';
 import { CourseDetailsComponent } from './courseDetails.component';
 import { CoursesComponent } from './courses.component';
+import { PersonDetailsComponent } from './person-details.component';
+import { PersonsListComponent } from './person-list.component';
 import { RoomDetailsComponent } from './room-details.component';
 import { RoomsListComponent } from './rooms-list.component';
-import { SemesterCoursesComponent } from './semester-courses.component';
+import { SemesterCoursesListComponent } from './semester-courses.component';
 import { TopMenuComponent } from './top-menu.component';
 import { routerConfig } from './top-menu.config.';
 
 @NgModule({
   declarations: [
-    AppComponent, CoursesComponent, SemesterCoursesComponent, TopMenuComponent,
-    CourseDetailsComponent, RoomsListComponent, RoomDetailsComponent
+    AppComponent, CoursesComponent, SemesterCoursesListComponent, TopMenuComponent,
+    CourseDetailsComponent, RoomsListComponent, RoomDetailsComponent,
+    PersonsListComponent, PersonDetailsComponent
   ],
   imports: [
     BrowserModule,

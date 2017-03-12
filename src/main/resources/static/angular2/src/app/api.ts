@@ -35,4 +35,11 @@ export class Api {
       id = encodeURIComponent(id);
     return this.http.get('http://localhost:8080/rooms/' + id);
   }
+  
+  getPersons() {
+    return this.http.get('http://localhost:8080/persons');
+  }
+  getPerson(id : string) {
+    return this.http.get('http://localhost:8080/persons/' + id)
+  }
 }

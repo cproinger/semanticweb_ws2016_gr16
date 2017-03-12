@@ -1,8 +1,10 @@
 import { CourseDetailsComponent } from './courseDetails.component';
 import { CoursesComponent } from './courses.component';
+import { PersonDetailsComponent } from './person-details.component';
+import { PersonsListComponent } from './person-list.component';
 import { RoomDetailsComponent } from './room-details.component';
 import { RoomsListComponent } from './rooms-list.component';
-import { SemesterCoursesComponent } from './semester-courses.component';
+import { SemesterCoursesListComponent } from './semester-courses.component';
 import { Routes } from '@angular/router';
 
 export const routerConfig: Routes = [
@@ -16,11 +18,11 @@ export const routerConfig: Routes = [
     },
     {
         path: 'SemesterCourses',
-        component: SemesterCoursesComponent
+        component: SemesterCoursesListComponent
     },
     {
         path: 'SemesterCourses/:id',
-        component: SemesterCoursesComponent
+        component: SemesterCoursesListComponent
     },
     {
         path: 'Rooms',
@@ -29,6 +31,14 @@ export const routerConfig: Routes = [
     {
         path: 'Rooms/:id',
         component: RoomDetailsComponent
+    },
+    {
+        path: 'Persons',
+        component: PersonsListComponent
+    },
+    {
+        path: 'Persons/:id',
+        component: PersonDetailsComponent
     },
     {
         path: '',

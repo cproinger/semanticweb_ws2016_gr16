@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(path="/persons/")
+@RequestMapping(path="/persons")
 public class PersonController {
 
     private final String URIBASE = "https://tiss.tuwien.ac.at/adressbuch/adressbuch/person/";
@@ -40,7 +40,7 @@ public class PersonController {
     }
 
     //Example: http://localhost:8080/persons/
-    @RequestMapping(path="/", method = RequestMethod.GET, produces="application/hal+json")
+    @RequestMapping(method = RequestMethod.GET, produces="application/hal+json")
     @ResponseBody
     public List<Resource<Person>> findAll() {
         return repo.findAll().stream().map(p -> new Resource<>(p))
