@@ -20,7 +20,7 @@ import { SemesterCourse } from './SemesterCourse';
     </thead>
     <tbody>
       <tr *ngFor="let co of courses">
-        <td><span class="clickable" >{{co.course.id}}</span></td>
+        <td><span class="clickable" (click)=onDetails(co)>{{co.course.id}}</span></td>
         <td>{{co.course.name}}</td>
         <td>{{co.course.ects}}</td>
         <td>{{co.course.semesterHours}}</td>
@@ -60,13 +60,14 @@ export class SemesterCoursesListComponent implements OnInit {
     //    return Object.assign(new Course(), json);
   }
 
-  getName(c: SemesterCourse) {
-    return c.course.name;
-  }
-
   onDetails(c: SemesterCourse) {
     //return c.links.find(x => x.rel == 'self');
-    console.log("goto course  " + c.course.id);
-    this.router.navigate(['/SemesterCourse/', c.course.id]);
+    console.log("goto semester-course  " + c.course.id);
+    this.router.navigate([
+      'SemesterCourses', 
+      c.course.id, 
+      'Semester', 
+      c.semester
+    ]);
   }
 }

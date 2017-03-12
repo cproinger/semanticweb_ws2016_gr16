@@ -4,6 +4,7 @@ import { PersonDetailsComponent } from './person-details.component';
 import { PersonsListComponent } from './person-list.component';
 import { RoomDetailsComponent } from './room-details.component';
 import { RoomsListComponent } from './rooms-list.component';
+import { SemesterCourseDetailsComponent } from './semester-course-details.component';
 import { SemesterCoursesListComponent } from './semester-courses-list.component';
 import { Routes } from '@angular/router';
 
@@ -19,6 +20,10 @@ export const routerConfig: Routes = [
     {
         path: 'SemesterCourses',
         component: SemesterCoursesListComponent
+    },
+    {
+        path: 'SemesterCourses/:id/Semester/:semester',
+        component: SemesterCourseDetailsComponent
     },
     {
         path: 'SemesterCourses/:id',

@@ -37,4 +37,10 @@ public class SemesterCourseRespositoryTest {
 				scs.stream().map(sc -> sc.getSemester())
 				.collect(Collectors.toSet()));
 	}
+	
+	@Test
+	public void testFindAll() {
+		List<SemesterCourse> scs = repo.findAll();
+		assertEquals(89, scs.size());
+	}
 }

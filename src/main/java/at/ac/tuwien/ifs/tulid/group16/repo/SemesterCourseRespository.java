@@ -1,10 +1,12 @@
 package at.ac.tuwien.ifs.tulid.group16.repo;
 
+import java.util.Collection;
 import java.util.List;
 
 import org.apache.jena.query.Dataset;
 import org.apache.jena.rdf.model.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
 import org.springframework.stereotype.Repository;
 
 import at.ac.tuwien.ifs.tulid.group16.SemanticApp;
@@ -36,6 +38,13 @@ public class SemesterCourseRespository extends AbstractJenaRepository<SemesterCo
 	public List<SemesterCourse> findByCourseId(String courseId) {
 		return executeConstructAndMapToList(Queries.SEMESTER_COURSE_FINDBY_COURSEID.newQuery(pss -> {
 			pss.setLiteral("paramId", courseId);
+		}));
+	}
+
+	@DatasetTransactional(readOnly = true)
+	public List<SemesterCourse> findAll() {
+		return executeConstructAndMapToList(Queries.SEMESTER_COURSE_FINDALL.newQuery(pss -> {
+			//empty
 		}));
 	}
 }

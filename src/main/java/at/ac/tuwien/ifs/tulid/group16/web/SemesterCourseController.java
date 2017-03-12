@@ -75,4 +75,12 @@ public class SemesterCourseController {
 						c.getSemester())))
 				.collect(Collectors.toList());
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, produces="application/hal+json")
+	@ResponseBody
+	public List<Resource<SemesterCourse>> findAll() {
+		return repo.findAll().stream()
+				.map(c -> new Resource<>(c))
+				.collect(Collectors.toList());
+	}
 }
