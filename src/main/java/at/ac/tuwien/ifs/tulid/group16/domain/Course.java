@@ -51,4 +51,9 @@ public class Course extends AbstractJenaResource {
 		}
 		return s;
 	}
+	
+	public String getType() {
+		return getPropertyObject(SemanticApp.NS_BASE + "#hasCourseType")
+				.asResource().getLocalName();
+	}
 }
